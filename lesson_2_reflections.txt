@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- new .git folder is created
+- you need it for the version control
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- staging area is a temporary area
+- you can easily remove files from here, git reset <file name>
+
