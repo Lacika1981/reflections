@@ -1,10 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 - new .git folder is created
-- you need it for the version control
+- you need it for the version control this folder contains every information of the changes have been made
+git init the command
+
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 - staging area is a temporary area
 - you can easily remove files from here, git reset <file name>
 
+git diff - compare working directory to staging area
+git diff --staged - compare staging area to most recent commit
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+git add <file name> - it will add only the file you put after the command to the staging area
+git commit will commit only those files what were added previously to the staging area
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- new experimental changes what may break the code
+- it is isolated from the master branch
+
+
+How do the diagrams help you visualize the branch structure?
+
+you can see the branches
+git log --graph --online <banch name> <branch name> ...

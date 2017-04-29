@@ -7,6 +7,7 @@ was introduced?
 
 diff -u first_file second_file OR diff first_file second_file
 
+
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
@@ -16,27 +17,33 @@ efficient programmer in the long term?
 - Wikipedia
 - GIT
 
+
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+    pros - manually creating commit is good because you can choose when you want to commit the changes and this way you can keep low the number of commits what can help if you need debugging
+    cons - you can forget to commit changes and may you commit two or more changes at once what makes the debugging harder
+
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    if you need to keep them separete or together you can have the option to choose and this way the programming can be easier because you can trace the program easier
+
 
 How can you use the commands git log and git diff to view the history of files?
 
     git log - shows all the commits
     git diff - shows the differences between two files
 
+
 How might using version control make you more confident to make changes that
 could break something?
 
     you can use different version to compare with others
     you can revert the progam to a working version
+
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
